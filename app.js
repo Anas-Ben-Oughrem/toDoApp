@@ -140,3 +140,5 @@ function removeLocalTodos(todo) {
   todos.splice(todos.indexOf(todoIndex, 1));
   localStorage.setItem("todos", JSON.stringify(todos));
 }
+
+alert("Welcome to your to do list");
